@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina ejemplo 01</title>
+    <style>
+        h1{
+            background-color: aqua;
+        }
+
+        p{
+            border: 2px solid;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    
+    <ul id="volver">
+        <li><a href="#primera_pag">primera pagina</a></li>
+        <li><a href="#lista_automatica">lista automativa</a></li>
+        <li><a href="#li">lista enlace</a></li>
+        <li><a href="#asd">vsdvsd</a></li>
+        <li><a href=""></a></li>
+    </ul>
+
     <h1>Primera Pagina Front End</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae deserunt, magnam cupiditate ea neque culpa quidem nobis quos consequatur corrupti inventore provident voluptates quisquam. Maiores saepe accusantium eum quisquam.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatibus in praesentium eum impedit sapiente tempore quam ipsam expedita? Minus officia consectetur odit sapiente alias adipisci velit nobis culpa fugit!
@@ -27,7 +48,7 @@
         <li>JIJIJAAAAAAAA</li>
     </ul>
 
-    <h2>lista ordenada</h2>
+    <h2 id="asd">lista ordenada</h2>
     <ol start="1" type="a">
         <li>JAJA</li>
         <li>JEJE</li>
@@ -36,7 +57,7 @@
         <li>JIJIJAAAAAAAA</li>
     </ol>
     <!--h2{lista automatica}+ul>li*6{Elemento $}-->
-    <h2>lista automatica</h2>
+    <h2 id="lista_automatica">lista automatica</h2>
     <ul>
         <li> Elemento de comida jijijijiji 1</li>
         <li> Elemento de comida jijijijiji 2</li>
@@ -48,7 +69,7 @@
     <!-- control + d para seleccionar varios elementos iguales-->
 
     <div class="alerta">
-        <p>Lorem <b>ipsum </b>dolor sit amet <strong>consectetur</strong> adipisicing elit. Veniam pariatur laboriosam accusamus quis mollitia asperiores magnam atque hic, alias voluptas ad totam dignissimos? Pariatur in ab dolor non expedita ducimus?</p>
+        <p>Lorem <b>ipsum </b>dolor sit amet <strong style="color: brown;">consectetur</strong> adipisicing elit. Veniam pariatur laboriosam accusamus quis mollitia asperiores magnam atque hic, alias voluptas ad totam dignissimos? Pariatur in ab dolor non expedita ducimus?</p>
     </div>
 
     <main>
@@ -65,6 +86,13 @@
         <li><a href="https://www.frivclassic.com/fc-es.html">frivclassic</a></li>
         <li><a href="https://www.crazygames.com/es/">crazygames</a></li>
     </ol>
-
+    <h2 id="li">Lista de enlaces</h2>
+    <ul>
+        <li><a href="">regerge</a></li>
+        <li><a href="productos/figuras.html">figuras</a></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <a href="#volver">vovolver</a>
 </body>
 </html>
