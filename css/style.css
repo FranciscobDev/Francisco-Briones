@@ -1,11 +1,51 @@
 body{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+main{
     padding: 0px 200px
 }
 p{
     padding: 30px;
     border-radius: 15px;
-    background-color: aquamarine;
+    background-color: rgb(127, 150, 255);
     text-align: justify;
     text-shadow: 2px 2px 5px gray;
     font-size: 20px;
+}
+header{
+    background-color: rgb(37, 37, 37);
+}
+
+header ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: rgb(111, 80, 146);
+}
+
+
+header ul a{
+    color: white;
+    text-decoration: dashed;
+    font-size: large;
+}
+
+.p2 {
+    background-image: url(../imagenes/67-frank-horrigan-fallout-2.jpg),url(../imagenes/67-frank-horrigan-fallout-2.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-position: top left , top right;
 }
